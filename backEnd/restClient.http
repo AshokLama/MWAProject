@@ -1,0 +1,11 @@
+####
+GET  http://localhost:3000/courses
+
+####
+POST http://localhost:3000/courses HTTP/1.1
+{ "name": "MWA", "code": "CS554"}
+
+content
+
+################################
+DELETE http://localhost:3000/courses/618dab298cc91d5187b67d67
